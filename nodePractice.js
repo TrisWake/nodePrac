@@ -5,7 +5,12 @@ const lastName = getInput(2)
 
 const fullName = (firstName + " " + lastName)
 console.log("Hello " + fullName)
-console.log(fullName.toUpperCase() + "this is your name capitalized");
+let capName = fullName.toUpperCase()
+console.log(capName + ", this is your name capitalized")
+const initials = firstName [0] + lastName[0]
+console.log("Your initials are " + initials)
+const email = firstName [0] + lastName + ".prsvr@gmail.com"
+console.log("Email: " + email)
 
 //toUpperCase()
 //toLowerCase()
